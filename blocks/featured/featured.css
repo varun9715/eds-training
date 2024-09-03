@@ -1,0 +1,41 @@
+.featured .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 1rem;
+}
+
+.featured .featured-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: #ebebeb;
+  padding: 3.5em 2em 2em;
+}
+.featured p {
+    font-size: 14px;
+    color: #202020;
+    margin: 0;
+}
+.featured p:first-child{
+    font-weight: bold;
+}
+.featured h2 a{
+    color: #202020;
+    font-weight: normal;
+}
+.featured .featured-image {
+  flex: 2;
+}
+
+.featured .featured-image img {
+    height: 100%;
+}
