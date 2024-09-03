@@ -1,0 +1,15 @@
+.franklin-rocks-container.section.highlight {
+  background-color: beige;
+}
+
+.franklin-rocks {
+  color: black;
+}
+
+.franklin-rocks > div {
+  display: flex;
+}
+.franklin-rocks > div div {
+  width: 50%;
+  padding: 10px;
+}
